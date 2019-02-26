@@ -1,0 +1,11 @@
+---
+- 
+  gather_facts: True
+  hosts: win
+  tasks:
+   - 
+     win_disk_facts:
+     register: out
+   - 
+     debug:
+      var: out 

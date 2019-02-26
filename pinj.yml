@@ -1,0 +1,9 @@
+- 
+  hosts: win
+  tasks:
+    - win_updates:
+          category_names: 
+              - SecurityUpdates
+          whitelist:
+              - KB4093120
+          log_path: c:/Scripts/ansible_wu.txt

@@ -1,0 +1,14 @@
+---
+- 
+  gather_facts: True
+  hosts: win
+  tasks:
+   - 
+     win_updates:
+        category_name:
+         - SecurityUpdates
+     register: out
+   - 
+     debug:
+      var: out 
+ 

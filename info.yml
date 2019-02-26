@@ -1,0 +1,13 @@
+---
+- 
+  gather_facts: True
+  hosts: win
+  tasks:
+   - 
+     setup:
+       gather_subset:
+               - facter
+     register: out
+   - 
+     debug:
+      var: out 

@@ -1,0 +1,6 @@
+  name: Install Windows Updates
+-  
+  win__updates:
+           category_names: ['SecurityUpdates','CriticalUpdates']
+           log_path: c:/ansible_wu.txt
+
