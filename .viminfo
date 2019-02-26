@@ -10,17 +10,22 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1551169619,,"wq!"
+|2,0,1551171217,,"wq!"
+:q!
+|2,0,1551171089,,"q!"
 :WQ!
 |2,0,1551161591,,"WQ!"
-:q!
-|2,0,1551161462,,"q!"
 :q
 |2,0,1551160484,,"q"
 
 # Search String History (newest to oldest):
+? @$
+|2,1,1551171071,,"@$"
 
 # Expression History (newest to oldest):
 
@@ -29,42 +34,126 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
+""0	CHAR	0
 	 
-|3,0,0,1,1,0,1551160481," "
-""-	CHAR	0
+|3,1,0,0,1,0,1551171071," "
+"-	CHAR	0
 	 
-|3,1,36,0,1,0,1551162844," "
+|3,0,36,0,1,0,1551162844," "
 
 # File marks:
-'0  1  0  /var/lib/jenkins/secrets/initialAdminPassword
-|4,48,1,0,1551169619,"/var/lib/jenkins/secrets/initialAdminPassword"
-'1  7  19  ~/disk.yml
-|4,49,7,19,1551162936,"~/disk.yml"
-'2  6  4  ~/disk.yml
-|4,50,6,4,1551162878,"~/disk.yml"
-'3  6  4  ~/disk.yml
-|4,51,6,4,1551162878,"~/disk.yml"
-'4  6  4  ~/disk.yml
-|4,52,6,4,1551162862,"~/disk.yml"
-'5  6  4  ~/disk.yml
-|4,53,6,4,1551162862,"~/disk.yml"
-'6  9  22  ~/info.yml
-|4,54,9,22,1551162831,"~/info.yml"
-'7  2  11  ~/disk.yml
-|4,55,2,11,1551162775,"~/disk.yml"
-'8  2  11  ~/disk.yml
-|4,56,2,11,1551162775,"~/disk.yml"
-'9  2  11  ~/disk.yml
-|4,57,2,11,1551162775,"~/disk.yml"
+'0  8  2  ~/.git/yam.yml
+|4,48,8,2,1551171217,"~/.git/yam.yml"
+'1  1  0  ~/.git/yam.yml
+|4,49,1,0,1551171145,"~/.git/yam.yml"
+'2  1  0  ~/.git/yam.yml
+|4,50,1,0,1551171145,"~/.git/yam.yml"
+'3  8  0  ~/.git
+|4,51,8,0,1551171089,"~/.git"
+'4  1  0  /var/lib/jenkins/secrets/initialAdminPassword
+|4,52,1,0,1551169619,"/var/lib/jenkins/secrets/initialAdminPassword"
+'5  7  19  ~/disk.yml
+|4,53,7,19,1551162936,"~/disk.yml"
+'6  6  4  ~/disk.yml
+|4,54,6,4,1551162878,"~/disk.yml"
+'7  6  4  ~/disk.yml
+|4,55,6,4,1551162878,"~/disk.yml"
+'8  6  4  ~/disk.yml
+|4,56,6,4,1551162862,"~/disk.yml"
+'9  6  4  ~/disk.yml
+|4,57,6,4,1551162862,"~/disk.yml"
 
 # Jumplist (newest first):
+-'  8  2  ~/.git/yam.yml
+|4,39,8,2,1551171217,"~/.git/yam.yml"
+-'  1  0  ~/.git/yam.yml
+|4,39,1,0,1551171193,"~/.git/yam.yml"
+-'  1  0  ~/.git/yam.yml
+|4,39,1,0,1551171145,"~/.git/yam.yml"
+-'  8  0  ~/.git
+|4,39,8,0,1551171089,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1551171089,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1551171089,"~/.git"
+-'  8  0  ~/.git
+|4,39,8,0,1551171089,"~/.git"
+-'  1  0  /var/lib/jenkins/secrets/initialAdminPassword
+|4,39,1,0,1551169619,"/var/lib/jenkins/secrets/initialAdminPassword"
+-'  1  0  /var/lib/jenkins/secrets/initialAdminPassword
+|4,39,1,0,1551169619,"/var/lib/jenkins/secrets/initialAdminPassword"
+-'  1  0  /var/lib/jenkins/secrets/initialAdminPassword
+|4,39,1,0,1551169619,"/var/lib/jenkins/secrets/initialAdminPassword"
+-'  1  0  /var/lib/jenkins/secrets/initialAdminPassword
+|4,39,1,0,1551169619,"/var/lib/jenkins/secrets/initialAdminPassword"
+-'  1  0  /var/lib/jenkins/secrets/initialAdminPassword
+|4,39,1,0,1551169619,"/var/lib/jenkins/secrets/initialAdminPassword"
+-'  1  0  /var/lib/jenkins/secrets/initialAdminPassword
+|4,39,1,0,1551169619,"/var/lib/jenkins/secrets/initialAdminPassword"
+-'  1  0  /var/lib/jenkins/secrets/initialAdminPassword
+|4,39,1,0,1551169619,"/var/lib/jenkins/secrets/initialAdminPassword"
 -'  1  0  /var/lib/jenkins/secrets/initialAdminPassword
 |4,39,1,0,1551169619,"/var/lib/jenkins/secrets/initialAdminPassword"
 -'  7  19  ~/disk.yml
 |4,39,7,19,1551162936,"~/disk.yml"
 -'  7  19  ~/disk.yml
 |4,39,7,19,1551162936,"~/disk.yml"
+-'  7  19  ~/disk.yml
+|4,39,7,19,1551162936,"~/disk.yml"
+-'  7  19  ~/disk.yml
+|4,39,7,19,1551162936,"~/disk.yml"
+-'  7  19  ~/disk.yml
+|4,39,7,19,1551162936,"~/disk.yml"
+-'  7  19  ~/disk.yml
+|4,39,7,19,1551162936,"~/disk.yml"
+-'  7  19  ~/disk.yml
+|4,39,7,19,1551162936,"~/disk.yml"
+-'  7  19  ~/disk.yml
+|4,39,7,19,1551162936,"~/disk.yml"
+-'  7  19  ~/disk.yml
+|4,39,7,19,1551162936,"~/disk.yml"
+-'  7  19  ~/disk.yml
+|4,39,7,19,1551162936,"~/disk.yml"
+-'  7  19  ~/disk.yml
+|4,39,7,19,1551162936,"~/disk.yml"
+-'  7  19  ~/disk.yml
+|4,39,7,19,1551162936,"~/disk.yml"
+-'  7  19  ~/disk.yml
+|4,39,7,19,1551162936,"~/disk.yml"
+-'  7  19  ~/disk.yml
+|4,39,7,19,1551162936,"~/disk.yml"
+-'  7  19  ~/disk.yml
+|4,39,7,19,1551162936,"~/disk.yml"
+-'  7  19  ~/disk.yml
+|4,39,7,19,1551162936,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162900,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162900,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162900,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162900,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162900,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162900,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162900,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162900,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162900,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162900,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162900,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162900,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162900,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162900,"~/disk.yml"
 -'  6  4  ~/disk.yml
 |4,39,6,4,1551162900,"~/disk.yml"
 -'  6  4  ~/disk.yml
@@ -73,6 +162,62 @@
 |4,39,6,4,1551162878,"~/disk.yml"
 -'  6  4  ~/disk.yml
 |4,39,6,4,1551162878,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162878,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162878,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162878,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162878,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162878,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162878,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162878,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162878,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162878,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162878,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162878,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162878,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162878,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162878,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162862,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162862,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162862,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162862,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162862,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162862,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162862,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162862,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162862,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162862,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162862,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162862,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162862,"~/disk.yml"
+-'  6  4  ~/disk.yml
+|4,39,6,4,1551162862,"~/disk.yml"
 -'  6  4  ~/disk.yml
 |4,39,6,4,1551162862,"~/disk.yml"
 -'  6  4  ~/disk.yml
@@ -89,178 +234,45 @@
 |4,39,2,11,1551162834,"~/disk.yml"
 -'  2  11  ~/disk.yml
 |4,39,2,11,1551162834,"~/disk.yml"
--'  9  22  ~/info.yml
-|4,39,9,22,1551162831,"~/info.yml"
--'  9  22  ~/info.yml
-|4,39,9,22,1551162831,"~/info.yml"
--'  9  22  ~/info.yml
-|4,39,9,22,1551162831,"~/info.yml"
--'  9  22  ~/info.yml
-|4,39,9,22,1551162831,"~/info.yml"
--'  9  22  ~/info.yml
-|4,39,9,22,1551162831,"~/info.yml"
--'  9  22  ~/info.yml
-|4,39,9,22,1551162831,"~/info.yml"
--'  9  22  ~/info.yml
-|4,39,9,22,1551162831,"~/info.yml"
--'  9  22  ~/info.yml
-|4,39,9,22,1551162831,"~/info.yml"
--'  9  22  ~/info.yml
-|4,39,9,22,1551162831,"~/info.yml"
--'  9  22  ~/info.yml
-|4,39,9,22,1551162831,"~/info.yml"
--'  9  22  ~/info.yml
-|4,39,9,22,1551162831,"~/info.yml"
--'  9  22  ~/info.yml
-|4,39,9,22,1551162831,"~/info.yml"
--'  9  22  ~/info.yml
-|4,39,9,22,1551162831,"~/info.yml"
--'  9  22  ~/info.yml
-|4,39,9,22,1551162831,"~/info.yml"
--'  9  22  ~/info.yml
-|4,39,9,22,1551162831,"~/info.yml"
--'  9  22  ~/info.yml
-|4,39,9,22,1551162831,"~/info.yml"
 -'  2  11  ~/disk.yml
-|4,39,2,11,1551162775,"~/disk.yml"
+|4,39,2,11,1551162834,"~/disk.yml"
 -'  2  11  ~/disk.yml
-|4,39,2,11,1551162775,"~/disk.yml"
+|4,39,2,11,1551162834,"~/disk.yml"
 -'  2  11  ~/disk.yml
-|4,39,2,11,1551162775,"~/disk.yml"
+|4,39,2,11,1551162834,"~/disk.yml"
 -'  2  11  ~/disk.yml
-|4,39,2,11,1551162775,"~/disk.yml"
--'  6  9  ~/disk.yml
-|4,39,6,9,1551162764,"~/disk.yml"
--'  6  9  ~/disk.yml
-|4,39,6,9,1551162764,"~/disk.yml"
--'  6  9  ~/disk.yml
-|4,39,6,9,1551162764,"~/disk.yml"
--'  6  9  ~/disk.yml
-|4,39,6,9,1551162764,"~/disk.yml"
--'  5  9  ~/disk.yml
-|4,39,5,9,1551162745,"~/disk.yml"
--'  5  9  ~/disk.yml
-|4,39,5,9,1551162745,"~/disk.yml"
--'  5  9  ~/disk.yml
-|4,39,5,9,1551162745,"~/disk.yml"
--'  5  9  ~/disk.yml
-|4,39,5,9,1551162745,"~/disk.yml"
--'  5  9  ~/disk.yml
-|4,39,5,9,1551162745,"~/disk.yml"
--'  5  9  ~/disk.yml
-|4,39,5,9,1551162745,"~/disk.yml"
--'  5  9  ~/disk.yml
-|4,39,5,9,1551162745,"~/disk.yml"
--'  5  9  ~/disk.yml
-|4,39,5,9,1551162745,"~/disk.yml"
--'  5  9  ~/disk.yml
-|4,39,5,9,1551162745,"~/disk.yml"
--'  5  9  ~/disk.yml
-|4,39,5,9,1551162745,"~/disk.yml"
--'  4  11  ~/disk.yml
-|4,39,4,11,1551162710,"~/disk.yml"
--'  4  11  ~/disk.yml
-|4,39,4,11,1551162710,"~/disk.yml"
--'  4  11  ~/disk.yml
-|4,39,4,11,1551162710,"~/disk.yml"
--'  5  11  ~/disk.yml
-|4,39,5,11,1551162710,"~/disk.yml"
--'  4  11  ~/disk.yml
-|4,39,4,11,1551162710,"~/disk.yml"
--'  5  11  ~/disk.yml
-|4,39,5,11,1551162710,"~/disk.yml"
--'  4  11  ~/disk.yml
-|4,39,4,11,1551162710,"~/disk.yml"
--'  4  11  ~/disk.yml
-|4,39,4,11,1551162710,"~/disk.yml"
--'  4  11  ~/disk.yml
-|4,39,4,11,1551162710,"~/disk.yml"
--'  4  11  ~/disk.yml
-|4,39,4,11,1551162710,"~/disk.yml"
--'  5  11  ~/disk.yml
-|4,39,5,11,1551162710,"~/disk.yml"
--'  4  11  ~/disk.yml
-|4,39,4,11,1551162710,"~/disk.yml"
--'  5  11  ~/disk.yml
-|4,39,5,11,1551162710,"~/disk.yml"
--'  4  11  ~/disk.yml
-|4,39,4,11,1551162710,"~/disk.yml"
--'  3  11  ~/disk.yml
-|4,39,3,11,1551162694,"~/disk.yml"
--'  3  11  ~/disk.yml
-|4,39,3,11,1551162694,"~/disk.yml"
--'  3  11  ~/disk.yml
-|4,39,3,11,1551162694,"~/disk.yml"
--'  4  11  ~/disk.yml
-|4,39,4,11,1551162694,"~/disk.yml"
--'  3  11  ~/disk.yml
-|4,39,3,11,1551162694,"~/disk.yml"
--'  4  11  ~/disk.yml
-|4,39,4,11,1551162694,"~/disk.yml"
--'  3  11  ~/disk.yml
-|4,39,3,11,1551162694,"~/disk.yml"
--'  3  11  ~/disk.yml
-|4,39,3,11,1551162694,"~/disk.yml"
--'  3  11  ~/disk.yml
-|4,39,3,11,1551162694,"~/disk.yml"
--'  3  11  ~/disk.yml
-|4,39,3,11,1551162694,"~/disk.yml"
--'  4  11  ~/disk.yml
-|4,39,4,11,1551162694,"~/disk.yml"
--'  3  11  ~/disk.yml
-|4,39,3,11,1551162694,"~/disk.yml"
--'  4  11  ~/disk.yml
-|4,39,4,11,1551162694,"~/disk.yml"
--'  3  11  ~/disk.yml
-|4,39,3,11,1551162694,"~/disk.yml"
--'  1  0  ~/disk.yml
-|4,39,1,0,1551162659,"~/disk.yml"
--'  1  0  ~/disk.yml
-|4,39,1,0,1551162659,"~/disk.yml"
--'  1  0  ~/disk.yml
-|4,39,1,0,1551162659,"~/disk.yml"
--'  1  0  ~/disk.yml
-|4,39,1,0,1551162659,"~/disk.yml"
--'  1  0  ~/disk.yml
-|4,39,1,0,1551162659,"~/disk.yml"
--'  1  0  ~/disk.yml
-|4,39,1,0,1551162659,"~/disk.yml"
--'  1  0  ~/disk.yml
-|4,39,1,0,1551162659,"~/disk.yml"
--'  1  0  ~/disk.yml
-|4,39,1,0,1551162659,"~/disk.yml"
--'  1  0  ~/disk.yml
-|4,39,1,0,1551162659,"~/disk.yml"
--'  1  0  ~/disk.yml
-|4,39,1,0,1551162659,"~/disk.yml"
--'  1  0  ~/disk.yml
-|4,39,1,0,1551162659,"~/disk.yml"
--'  1  0  ~/disk.yml
-|4,39,1,0,1551162659,"~/disk.yml"
--'  1  0  ~/disk.yml
-|4,39,1,0,1551162659,"~/disk.yml"
--'  1  0  ~/disk.yml
-|4,39,1,0,1551162659,"~/disk.yml"
--'  1  0  ~/disk.yml
-|4,39,1,0,1551162659,"~/disk.yml"
--'  1  0  ~/disk.yml
-|4,39,1,0,1551162659,"~/disk.yml"
--'  1  0  ~/disk.yml
-|4,39,1,0,1551162659,"~/disk.yml"
--'  1  0  ~/disk.yml
-|4,39,1,0,1551162659,"~/disk.yml"
--'  6  23  ~/kinj.yml
-|4,39,6,23,1551162654,"~/kinj.yml"
--'  6  23  ~/kinj.yml
-|4,39,6,23,1551162654,"~/kinj.yml"
--'  6  23  ~/kinj.yml
-|4,39,6,23,1551162654,"~/kinj.yml"
--'  6  23  ~/kinj.yml
-|4,39,6,23,1551162654,"~/kinj.yml"
--'  6  23  ~/kinj.yml
-|4,39,6,23,1551162654,"~/kinj.yml"
+|4,39,2,11,1551162834,"~/disk.yml"
+-'  2  11  ~/disk.yml
+|4,39,2,11,1551162834,"~/disk.yml"
+-'  2  11  ~/disk.yml
+|4,39,2,11,1551162834,"~/disk.yml"
+-'  2  11  ~/disk.yml
+|4,39,2,11,1551162834,"~/disk.yml"
+-'  2  11  ~/disk.yml
+|4,39,2,11,1551162834,"~/disk.yml"
+-'  2  11  ~/disk.yml
+|4,39,2,11,1551162834,"~/disk.yml"
+-'  2  11  ~/disk.yml
+|4,39,2,11,1551162834,"~/disk.yml"
+-'  2  11  ~/disk.yml
+|4,39,2,11,1551162834,"~/disk.yml"
+-'  2  11  ~/disk.yml
+|4,39,2,11,1551162834,"~/disk.yml"
+-'  2  11  ~/disk.yml
+|4,39,2,11,1551162834,"~/disk.yml"
+-'  2  11  ~/disk.yml
+|4,39,2,11,1551162834,"~/disk.yml"
+-'  2  11  ~/disk.yml
+|4,39,2,11,1551162834,"~/disk.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/.git/yam.yml
+	*	1551171216	0
+	"	8	2
+	^	8	3
+	.	8	2
+	+	8	2
 
 > /var/lib/jenkins/secrets/initialAdminPassword
 	*	1551169617	0
